@@ -1,0 +1,17 @@
+{"level":"error","timestamp":"2025-06-09T15:49:26.145-0400","caller":"emailer/main.go:55","msg":"Failed to initialize template manager","error":"no templates found in directory ./templates","stacktrace":"main.main\n\t/home/martinsedd/Documents/projects/runebird/cmd/emailer/main.go:55\nruntime.main\n\t/usr/lib/go/src/runtime/proc.go:283"}
+{"level":"error","timestamp":"2025-06-09T15:51:03.383-0400","caller":"emailer/main.go:56","msg":"Failed to initialize template manager","error":"no templates found in directory ./templates","stacktrace":"main.main\n\t/home/martinsedd/Documents/projects/runebird/cmd/emailer/main.go:56\nruntime.main\n\t/usr/lib/go/src/runtime/proc.go:283"}
+{"level":"info","timestamp":"2025-06-09T15:51:03.383-0400","caller":"rate/rate.go:68","msg":"Rate limiter queue processing started"}
+{"level":"info","timestamp":"2025-06-09T15:51:03.383-0400","caller":"scheduler/scheduler.go:59","msg":"Scheduler started"}
+{"level":"info","timestamp":"2025-06-09T15:51:03.383-0400","caller":"server/server.go:101","msg":"Starting HTTP server","port":8080}
+{"level":"info","timestamp":"2025-06-09T15:51:12.658-0400","caller":"emailer/main.go:85","msg":"Received shutdown signal, stopping services"}
+{"level":"info","timestamp":"2025-06-09T15:51:12.659-0400","caller":"server/server.go:109","msg":"Shutting down HTTP server"}
+{"level":"info","timestamp":"2025-06-09T15:51:12.659-0400","caller":"scheduler/scheduler.go:72","msg":"Scheduler stopped"}
+{"level":"info","timestamp":"2025-06-09T15:51:12.659-0400","caller":"rate/rate.go:82","msg":"Rate limiter queue processing stopped"}
+{"level":"error","timestamp":"2025-06-09T19:55:54.354Z","caller":"emailer/main.go:56","msg":"Failed to initialize template manager","error":"no templates found in directory ./templates","stacktrace":"main.main\n\t/app/cmd/emailer/main.go:56\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:283"}
+{"level":"info","timestamp":"2025-06-09T19:55:54.354Z","caller":"rate/rate.go:68","msg":"Rate limiter queue processing started"}
+{"level":"info","timestamp":"2025-06-09T19:55:54.354Z","caller":"scheduler/scheduler.go:59","msg":"Scheduler started"}
+{"level":"info","timestamp":"2025-06-09T19:55:54.354Z","caller":"server/server.go:101","msg":"Starting HTTP server","port":8080}
+{"level":"info","timestamp":"2025-06-09T19:56:47.146Z","caller":"emailer/main.go:85","msg":"Received shutdown signal, stopping services"}
+{"level":"info","timestamp":"2025-06-09T19:56:47.147Z","caller":"server/server.go:109","msg":"Shutting down HTTP server"}
+{"level":"info","timestamp":"2025-06-09T19:56:47.147Z","caller":"scheduler/scheduler.go:72","msg":"Scheduler stopped"}
+{"level":"info","timestamp":"2025-06-09T19:56:47.147Z","caller":"rate/rate.go:82","msg":"Rate limiter queue processing stopped"}

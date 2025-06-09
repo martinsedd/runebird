@@ -1,0 +1,15 @@
+services:
+  runebird:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: runebird-emailer
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./emailer.yaml:/app/emailer.yaml
+      - ./templates:/app/templates
+      - ./logs:/app/logs
+    environment:
+      - EMAILER_CONFIG_PATH=/app/emailer.yaml
+    restart: unless-stopped

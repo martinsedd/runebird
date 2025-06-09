@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+smtp:
+  host: "smtp.example.com"
+  port: 587
+  username: "user@example.com"
+  password: "your-smtp-password"
+  from_address: "no-reply@runebird.app"
+
+templates:
+  path: "./templates"
+
+rate_limit:
+  per_hour: 100
+  burst: 5
+
+logging:
+  file_path: "./logs/runebird.log"
+  level: "info"
