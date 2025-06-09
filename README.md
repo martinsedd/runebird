@@ -1,5 +1,7 @@
 # RuneBird Emailer Service
 
+![Project Logo](project_logo.png)
+
 RuneBird is a self-hosted, containerized email service written in Go, designed to send templated HTML emails via a REST API.
 It supports immediate and scheduled email delivery, global rate limiting, and Prometheus-compatible metrics for observability.
 Perfect for integration into other applications using Docker Compose.
