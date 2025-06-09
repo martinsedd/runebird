@@ -7,7 +7,6 @@ Perfect for integration into other applications using Docker Compose.
 [![Go](https://img.shields.io/badge/Go-1.24-blue.svg)](https://golang.org)
 [![Docker](https://img.shields.io/badge/Docker-Supported-blue.svg)](https://www.docker.com)
 ![Github license](https://img.shields.io/github/license/martinsedd/runebird)
-[![CI](https://github.com/martinsedd/runebird/actions/workflows/ci.yml/badge.svg)](https://github.com/martinsedd/runebird/actions/workflows/ci.yml)
 
 ## Overview
 
