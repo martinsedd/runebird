@@ -52,7 +52,7 @@ RuneBird provides a lightweight, configurable solution for sending HTML emails w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/runebird.git
+   git clone https://github.com/martinsedd/runebird.git
    cd runebird
    ```
 
